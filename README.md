@@ -8,11 +8,11 @@ You can play our fabulous game at: [to be published]
 
 <img src="https://avatars0.githubusercontent.com/u/54409809?s=460&v=4" alt="David García" width="200" height="200">
 
-- David García - Full Stack Developer - [Linkedin](https://www.linkedin.com/in/davidgarciabr/) / [GitHub](http://www.dropwizard.io/1.0.2/docs/) /
+- David García - Full Stack Developer - [Linkedin](https://www.linkedin.com/in/davidgarciabr/) / [GitHub](https://github.com/dgarciabravo13) /
 
 <img src="https://avatars1.githubusercontent.com/u/45364181?s=460&v=4" alt="Joan Carballo" width="200" height="200">
 
-- Joan Carballo - Full Stack Developer - [Web](https://joancarballo.com) / [Linkedin](https://www.linkedin.com/in/carballo/) / [GitHub](https://github.com/dgarciabravo13) /
+- Joan Carballo - Full Stack Developer - [Web](https://joancarballo.com) / [Linkedin](https://www.linkedin.com/in/carballo/) / [GitHub](https://github.com/joancarballo) /
 
 # What is this
 
