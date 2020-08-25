@@ -6,8 +6,18 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const layouts = require("express-ejs-layouts");
 const mongoose = require("mongoose");
+require("dotenv").config();
 
-mongoose.connect("mongodb://localhost/stepify-react");
+//mongoose.connect("mongodb://localhost/stepify-react");
+mongoose.connect(process.env.DBURL)
+.then((x) => {
+  console.log(
+    `Connected to Mongo! Database name: "${x.connections[0].name}"`
+  );
+})
+.catch((err) => {
+  console.error("Error connecting to Mongo", err);
+});
 
 const app = express();
 
