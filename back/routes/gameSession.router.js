@@ -11,9 +11,10 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-router.post("/",async (req, res, next) => {
+router.post("/create",async (req, res, next) => {
     try {
       const { username } = req.body;
+      console.log("hola");
       const newSession = await GameSession.create({
         username
         // spotifyId,
