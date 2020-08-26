@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const favicon = require("serve-favicon");
@@ -6,7 +7,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const layouts = require("express-ejs-layouts");
 const mongoose = require("mongoose");
-require("dotenv").config();
+
 
 //mongoose.connect("mongodb://localhost/stepify-react");
 mongoose.connect(process.env.DBURL)
