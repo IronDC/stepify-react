@@ -18,6 +18,7 @@
     "mongoose": "~4.8.5",
     "morgan": "~1.7.0",
     "nodemon": "^2.0.4",
-    "serve-favicon": "~2.3.2"
+    "serve-favicon": "~2.3.2",
+    "spotify-web-api-node": "^4.0.0"
   }
 }
