@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const favicon = require("serve-favicon");
@@ -7,7 +8,17 @@ const bodyParser = require("body-parser");
 const layouts = require("express-ejs-layouts");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/stepify-react");
+
+//mongoose.connect("mongodb://localhost/stepify-react");
+mongoose.connect(process.env.DBURL)
+.then((x) => {
+  console.log(
+    `Connected to Mongo! Database name: "${x.connections[0].name}"`
+  );
+})
+.catch((err) => {
+  console.error("Error connecting to Mongo", err);
+});
 
 const app = express();
 
