@@ -10,8 +10,7 @@ const dropIfExists = async (Model) => {
     await Model.collection.drop();
   } catch (e) {
     if (e instanceof MongoError) {
-      console.log(`No se puede borrar la colección ${Model.collection.name}. HA hA.`
-      );
+      console.log(`No se puede borrar la colección ${Model.collection.name}.`);
     } else {
       throw e;
     }
