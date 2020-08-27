@@ -4,7 +4,7 @@ const Artist = require("../models/artist");
 
 withDbConnection(async () => {
   await dropIfExists(Artist);
-  //await Artist.deleteMany();
+  ///await Artist.deleteMany();
   await Artist.remove({});
   await Artist.create([
     {

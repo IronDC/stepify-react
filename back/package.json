@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "DEBUG=back:* nodemon ./bin/www",
     "seed": "node ./bin/seeds.js"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "express-ejs-layouts": "~2.2.0",
     "mongoose": "~4.8.5",
     "morgan": "~1.7.0",
+    "nodemon": "^2.0.4",
     "serve-favicon": "~2.3.2"
   }
 }
