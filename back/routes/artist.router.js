@@ -8,8 +8,7 @@ router.get("/", async (req, res, next) => {
   try {
     const artist = await Artist.find();
     const cloneArtist = [...artist];
-    const selectRandom = (array) =>
-      array[Math.floor(Math.random() * array.length)];
+    const selectRandom = (array) => array[Math.floor(Math.random() * array.length)];
 
     let initialArtist = selectRandom(cloneArtist);
 
