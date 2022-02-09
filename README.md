@@ -4,7 +4,7 @@
 
 You can play our fabulous game at: [to be published]
 
-# Made by David García && Joan Carballo
+# Made by David García && Joan Carballo in 2022
 
 <img src="https://avatars0.githubusercontent.com/u/54409809?s=460&v=4" alt="David García" width="200" height="200">
 
